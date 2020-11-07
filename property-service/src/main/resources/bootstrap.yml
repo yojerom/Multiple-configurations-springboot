@@ -1,0 +1,16 @@
+spring:
+  cloud:
+    vault:
+      token: s.fPtmQalpWxoOPGLV3jaRhe3k
+      scheme: http
+      kv:
+        enabled: true
+    consul:
+      config:
+        fail-fast: true
+      host: localhost
+      port: 8500
+  application:
+    name: property-service
+    
+resulty: 3
